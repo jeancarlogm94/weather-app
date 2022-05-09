@@ -53,10 +53,9 @@ const Weather = () => {
             <img src={icon} alt="icon weather"/>
             <h2>{degrees} {isDegrees ? '°C' : '°F'}</h2>
             <h3>{location?.weather?.[0].main}</h3>
-            <h3>{location?.weather?.[0].description}</h3>
+            {/* <h3>{location?.weather?.[0].description}</h3> */}
             <p></p>
-            <p>{location?.sys?.country}</p>
-            <p>{location?.name}</p>
+            <p>{location?.sys?.country}, {location?.name}</p>
             <div className='icons'>
             <button onClick={changeDegrees}>
                 Change Units

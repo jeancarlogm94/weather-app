@@ -54,8 +54,9 @@ button {
   width: 90px;
   padding: 15px;
   border: none;
-  background-image: linear-gradient(to left top, #a4e316, #00c980, #00a1bc, #0071bc, #3a3d81);
-  border-radius: 10px;
+  background-image: linear-gradient(to right top, #835b7a, #8472a1, #758dc5, #52aae0, #12c6eb);
+  opacity: 0.9;
+  border-radius: 50%;
   color: black;
   font-weight: bold;
 }
