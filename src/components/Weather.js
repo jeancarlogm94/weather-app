@@ -18,7 +18,7 @@ const Weather = () => {
             axios.get(weatherApi)
             .then(res => {
                 setLocation(res.data)
-                setDegrees((res.data.main.temp) -273.15)
+                setDegrees(Math.trunc((res.data.main.temp) -273.15))
             })
         }
 
