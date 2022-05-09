@@ -52,7 +52,7 @@ p {
 
 button {
   width: 90px;
-  padding: 20px;
+  padding: 15px;
   border: none;
   background-image: linear-gradient(to left top, #a4e316, #00c980, #00a1bc, #0071bc, #3a3d81);
   border-radius: 10px;
@@ -67,5 +67,5 @@ button:hover {
 
 .icons {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
