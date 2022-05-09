@@ -50,19 +50,11 @@ p {
   text-align: left;
 }
 
-img {
-  padding: 20px;
-  background-image: linear-gradient(to left top, #a4e316, #00c980, #00a1bc, #0071bc, #3a3d81);
-  margin: 10px;
-  border-radius: 15px;
-}
-
 button {
   width: 90px;
-  padding: 5px;
-  margin: 30px;
+  padding: 20px;
   border: none;
-  background-image: linear-gradient(to right top, #8ad16b, #43d296, #00cec0, #00c6e0, #1dbbef, #40bcf3, #57bef6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to left top, #a4e316, #00c980, #00a1bc, #0071bc, #3a3d81);
   border-radius: 10px;
   color: black;
   font-weight: bold;
@@ -75,4 +67,5 @@ button:hover {
 
 .icons {
   display: flex;
+  justify-content: end;
 }

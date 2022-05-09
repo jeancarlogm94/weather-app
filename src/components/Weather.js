@@ -50,14 +50,14 @@ const Weather = () => {
     return (
         <div className='container'>
             <h1>WEATHER APP</h1>
+            <img src={icon} alt="icon weather"/>
             <h2>{degrees} {isDegrees ? '°C' : '°F'}</h2>
             <h3>{location?.weather?.[0].main}</h3>
             <h3>{location?.weather?.[0].description}</h3>
             <p></p>
-            <p><b>Country: </b>{location?.sys?.country}</p>
-            <p><b>City: </b>{location?.name}</p>
+            <p>{location?.sys?.country}</p>
+            <p>{location?.name}</p>
             <div className='icons'>
-            <img src={icon} alt="icon weather"/>
             <button onClick={changeDegrees}>
                 Change Units
             </button>
