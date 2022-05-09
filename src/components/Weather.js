@@ -44,12 +44,18 @@ const Weather = () => {
                 setIsDegrees(true)
             }
         }
-        
+
+        console.log(location?.weather?.[0].main)
+
     return (
         <div className='container'>
+            <h1>WEATHER APP</h1>
+            <h2>{degrees} {isDegrees ? '°C' : '°F'}</h2>
+            <h3>{location?.weather?.[0].main}</h3>
+            <h3>{location?.weather?.[0].description}</h3>
+            <p></p>
             <p><b>Country: </b>{location?.sys?.country}</p>
             <p><b>City: </b>{location?.name}</p>
-            <p><b>Temperatura: </b>{degrees} {isDegrees ? '°C' : '°F'}</p>
             <div className='icons'>
             <img src={icon} alt="icon weather"/>
             <button onClick={changeDegrees}>

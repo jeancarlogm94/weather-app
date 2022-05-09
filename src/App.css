@@ -16,46 +16,61 @@ body {
 
 .container {
   width: 100%;
-  background-color: #C4FCEF;
-  padding: 40px;
+  color: white;
+  background-image: linear-gradient(to right top, #969aa4, #808db1, #6a80be, #5272c9, #3963d2, #2f6ada, #2072e2, #0079ea, #0093e9, #00a8db, #2db7ca, #79c4bf);
+  padding: 45px;
   border-radius: 15px;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  padding: 5px;
+}
+
+h2 {
+  padding: 5px;
+  text-align: right;
+}
+
+h3 {
+  padding: 5px;
+  text-align: right;
 }
 
 .container:hover {
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7);
-  transform: translateY(-1%)
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  
 }
 
 p {
   font-size: large;
-  padding: 20px;
-  text-align: center;
+  padding: 8px;
+  text-align: left;
 }
 
 img {
   padding: 20px;
-  background-color: #00C9A7;
+  background-image: linear-gradient(to left top, #a4e316, #00c980, #00a1bc, #0071bc, #3a3d81);
   margin: 10px;
   border-radius: 15px;
 }
 
-img:hover {
-  box-shadow: 1px 1px 1px 1px #00C9A7;
-}
-
 button {
   width: 90px;
-  padding: 10px;
+  padding: 5px;
   margin: 30px;
   border: none;
-  background-color: #FF8066;
+  background-image: linear-gradient(to right top, #8ad16b, #43d296, #00cec0, #00c6e0, #1dbbef, #40bcf3, #57bef6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   border-radius: 10px;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 button:hover {
-  box-shadow: 1px 1px 1px 1px #FF8066;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .icons {
